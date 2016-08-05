@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,700italic,700,600italic,800,600,400italic,300italic,300');
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.nav {
+  font-size: 2rem;
+  padding: 2.2rem;
+}
+.events
+.events h1,
+.events h2,
+.events h3,
+.events h4,
+.events h5,
+.events h6,
+.events p {
+  font-size: 200%;
+}
+.events h3 {
+  font-size:5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.footer p {
+  font-size: 16px;
+  color: darkgrey;
+}

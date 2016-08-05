@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800italic,700italic,700,600italic,800,600,400italic,300italic,300");
+/* line 2, sass/layout/_layout.scss */
+.navigation {
+  height: 10rem;
+  position: fixed;
+  background: white;
+  width: 100%;
+  z-index: 100; }
+
+/* line 9, sass/layout/_layout.scss */
+html {
+  background: url("img/roulette.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  max-height: 900px; }
+
+/* line 16, sass/layout/_layout.scss */
+body {
+  background-color: transparent; }
+
+/* line 19, sass/layout/_layout.scss */
+.footer {
+  background: #231F20;
+  height: 10rem;
+  padding: 2rem; }
+
+/* line 24, sass/layout/_layout.scss */
+.follow {
+  margin-top: 20%; }
+
+/* line 27, sass/layout/_layout.scss */
+.events {
+  position: absolute;
+  top: 1000px;
+  background: white;
+  text-align: center;
+  padding-top: 5rem; }
+
+/* line 34, sass/layout/_layout.scss */
+.events img {
+  height: 425px;
+  width: auto;
+  padding: 4rem; }
+
+@media (min-width: 200px) {
+  /* line 2, sass/media-queries/_200.scss */
+  #section-login {
+    display: none; } }
+@media (min-width: 1400px) {
+  /* line 2, sass/media-queries/_1400.scss */
+  #section-login {
+    display: inline; } }
+/* line 2, sass/typography/_typography.scss */
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+/* line 5, sass/typography/_typography.scss */
+.nav {
+  font-size: 2rem;
+  padding: 2.2rem; }
+
+/* line 9, sass/typography/_typography.scss */
+.events
+.events h1,
+.events h2,
+.events h3,
+.events h4,
+.events h5,
+.events h6,
+.events p {
+  font-size: 200%; }
+
+/* line 19, sass/typography/_typography.scss */
+.events h3 {
+  font-size: 5rem;
+  text-transform: uppercase;
+  font-weight: 700; }
+
+/* line 24, sass/typography/_typography.scss */
+.footer p {
+  font-size: 16px;
+  color: darkgrey; }
+
+/*# sourceMappingURL=style.css.map */
